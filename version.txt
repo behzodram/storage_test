@@ -1,0 +1,1 @@
+v 1.0.0 => main: front va back yozildi. front upload qiladi, barcha uploads/ dagi fayllarni ko'rsatadi., back python -> exp time bilan url yasaydi kerak narsa
