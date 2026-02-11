@@ -1,2 +1,3 @@
+v 1.0.2 => main: README edit forget while pushing
 v 1.0.1 => main: back => config.py dan downloads papkadagi kerakli rasm nomini tahrirlab, padmin.py run bersam, redis ttl gacha cadmin (admin huquqisiz) dwonloads lokalga download qila oladi. bu ikki script butunlay remote ishlay oladi
 v 1.0.0 => main: front va back yozildi. front upload qiladi, barcha uploads/ dagi fayllarni ko'rsatadi., back python -> exp time bilan url yasaydi kerak narsa
