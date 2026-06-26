@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Img Direct Link</title>
+    
+    <link rel="icon"
+        type="image/jpeg"
+        sizes="96x96"
+        href="https://firebasestorage.googleapis.com/v0/b/storage-test-d4789.firebasestorage.app/o/uploads%2F1782510572458_cropped_circle_image%20(3).png?alt=media&token=9017a61f-4aaa-4899-a876-610864e1b1de">
+
+    <link rel="shortcut icon"
+        href="https://firebasestorage.googleapis.com/v0/b/storage-test-d4789.firebasestorage.app/o/uploads%2F1782510572458_cropped_circle_image%20(3).png?alt=media&token=9017a61f-4aaa-4899-a876-610864e1b1de">
+    
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f6fb;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .progress {
+            width: 100%;
+            height: 20px;
+            background: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .bar {
+            height: 100%;
+            width: 0%;
+            background: #4caf50;
+        }
+
+        img {
+            max-width: 200px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
+        .file-box {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>📦 Img Direct Link</h2>
+
+        <!-- FILE SELECT -->
+        <input type="file" id="fileInput">
+
+        <br>
+
+        <button onclick="uploadFile()">Upload</button>
+        <button onclick="listFiles()">List Files</button>
+
+        <!-- PROGRESS -->
+        <div class="progress">
+            <div class="bar" id="progressBar"></div>
+        </div>
+
+        <!-- PREVIEW -->
+        <div id="preview"></div>
+
+        <hr>
+
+        <h3>📂 Storage Files</h3>
+        <div id="fileList"></div>
+
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-storage-compat.js"></script>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

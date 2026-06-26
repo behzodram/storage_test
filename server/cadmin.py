@@ -38,7 +38,7 @@ data = json.loads(data)
 signed_url = data.get("signed_url")
 
 if not signed_url:
-    print("❌ Signed URL yo‘q")
+    print("❌ Signed URL yoq")
     exit()
 
 print("⬇️ Downloading via signed URL...")
